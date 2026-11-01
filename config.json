@@ -590,7 +590,7 @@
             "mode": "tls-rf",
             "wait_for_ack": false,
             "oob": false,
-            "host": "154.21.197.32"
+            "host": "38.207.191.87"
         },
         "*telegram.(org|me);t.me": {
             "tls13_only": false,
@@ -633,6 +633,36 @@
             "mode": "tls-rf",
             "wait_for_ack": false,
             "oob": false
+        },
+        "facebook.com;www.facebook.com;l.facebook.com;m.facebook.com": {
+            "mode": "tls-rf",
+            "host": "57.144.220.1"
+        },
+        "instagram.com;www.instagram.com": {
+            "mode": "tls-rf",
+            "host": "57.144.220.34"
+        },
+        "*cdninstagram.com": {
+            "mode": "tls-rf",
+            "host": "57.144.62.192",
+            "num_records": 1,
+            "num_ses": 3
+        },
+        "*fbcdn.net": {
+            "mode": "tls-rf",
+            "host": "57.144.62.128",
+            "num_records": 1,
+            "num_ses": 3
+        },
+        "mobile.facebook.com;accountscenter.facebook.com;*meta.com": {
+            "mode": "tls-rf",
+            "host": "57.144.220.141"
+        },
+        "kaios-d.facebook.com": {
+            "mode": "tls-rf",
+            "host": "57.144.220.130",
+            "num_records": 1,
+            "num_ses": 3
         }
     }
 }

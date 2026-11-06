@@ -92,9 +92,6 @@
         }
     },
     "domain_policies": {
-        "facebook.com;*.facebook.com;fb.com;*.fb.com;fbcdn.net;*.fbcdn.net;fbsbx.com;*.fbsbx.com;facebook.net;*.facebook.net;instagram.com;*.instagram.com;cdninstagram.com;*.cdninstagram.com;threads.net;*.threads.net;messenger.com;*.messenger.com;m.me;*.m.me;meta.com;*.meta.com;meta.ai;*.meta.ai;oculus.com;*.oculus.com;whatsapp.com;*.whatsapp.com;whatsapp.net;*.whatsapp.net;whatsapp-cdn.net;*.whatsapp-cdn.net;tfbnw.net;*.tfbnw.net": {
-            "mode": "tls-rf"
-        },
         "*(wikimedia|wikipedia|wiktionary|wikiversity|wikivoyage|wikisource|wikinews|wikidata|mediawiki|wikifunctions|wikibooks|wikiquote).org": {
             "host": "185.15.58.224"
         },
@@ -541,8 +538,7 @@
             "host": "150.171.110.135"
         },
         "*admin.microsoft.com;*bingapis.com;*login.live.com;*login.microsoftonline.com;*m365.cloud.microsoft;*strate.office.com": {
-            "mode": "direct",
-            "nat64_prefix": "2001:67c:2960:6464::"
+            "mode": "direct"
         },
         "*tch.poe.com": {
             "mode": "tls-rf"
@@ -585,7 +581,7 @@
             "wait_for_ack": false,
             "oob": false
         },
-        "*arena.ai;*character.ai;*chatgpt.com;*claude.ai;*grok.com;*openai.com;*poe.com;*x.ai;copilot.microsoft.com": {
+        "*arena.ai;*character.ai;*chatgpt.com;*claude.ai;*openai.com;*poe.com;": {
             "tls13_only": false,
             "mode": "tls-rf",
             "wait_for_ack": false,
@@ -665,4 +661,3 @@
             "num_ses": 3
         }
     }
-}

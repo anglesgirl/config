@@ -659,5 +659,9 @@
             "host": "57.144.220.130",
             "num_records": 1,
             "num_ses": 3
+        },
+        "dns.google": {
+            "mode": "tls-rf",
+            "host": "216.239.34.34"
         }
     }
